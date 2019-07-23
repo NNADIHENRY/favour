@@ -1,0 +1,122 @@
+<DOCTYPE html>
+	<html>
+
+<head>
+
+<title>To Do App</title>
+
+<style type="text/css">
+*{
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+
+}
+
+.main{
+width: 450px;
+height: 590px;
+background-color: #B9188F;
+margin: auto;
+padding-top: 10px;
+}
+
+
+
+.submain{
+width: 440px;
+height: 70px;
+background-color: #ffffff;
+margin: auto;
+border: 0px;
+
+}
+
+.submain input{
+width: 340px;
+height: 70px;
+background-color: #ffffff;
+margin: auto;
+border: 0px;
+padding-left: 10px;
+font-size: 25px;
+
+}
+
+.submain button{
+width: 89px;
+height: 68px;
+background-color: #B9188F;
+border: 0px;
+color: white;
+font-size: 25px;
+}
+
+#body{
+
+	width: 430px;
+	height: 510px;
+	background-color: purple;
+	margin: auto;
+}
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+<div class="main">
+
+<div class="submain">
+<input id="send" type="text" name="todo" placeholder="write Todo item here">
+
+<button type="submit" onlick="show()">ADD</button>
+
+</div>
+
+
+<div id="body">
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+//alert("javascriptpage");
+
+
+function show(){
+
+var thevalue=document.getElementById('send');
+
+alert(thevalue.value);
+
+	
+}
+
+
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+
+
+</html>

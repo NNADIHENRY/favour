@@ -1,0 +1,12 @@
+<?php
+session_start();
+include 'header.php';
+include 'connect.php';
+echo '<div style="width:800px;margin:auto;"><h2 style=" text-align:center;color:green;">ABOUT SIWES</h2><hr/><p  style="text-align:"justify;">
+The Student Industrial Work-Experience Scheme (SIWES) is a planned and supervised training intervention based on stated specific learning and career objectives, and geared towards developing the occupational competencies of the participants. It is a programme required to be undertaken by all students of tertiary institutions in Nigeria pursuing courses in “specialized engineering, technical, business, applied sciences and applied arts” (ITF, 2004a).
+The Students Industrial Work Experience Scheme (SIWES) is a Skills Training Programme designed to expose and prepare students of Universities, Polytechnics/Colleges of Technology/Colleges of Agriculture and Colleges of Education for the Industrial Work situation they are likely to meet after graduation. The scheme also affords students the opportunity of familiarizing and exposing themselves to the needed experience in handling equipment and machinery that are usually not available in their Institutions. 
+The Students’ Industrial Work-Experience Scheme (SIWES) started in 1974 with 748 students from 11 institutions of higher learning participating. By 1978, the scope of participation in the scheme had increased to about 5,000 students from 32 institutions.  The Industrial Training Fund, however, withdrew from the management of the scheme in 1979 owing to problems of organizational logistics and the increased financial burden associated with the rapid expansion of SIWES (ITF, 2003). Consequently, the Federal Government funded the scheme through the National Universities Commission (NUC) and the National Board for Technical Education (NBTE) who managed SIWES for five years (1979 – 1984). The supervising agencies (NUC and NBTE) operated the scheme in conjunction with their respective institutions during this period. Presently,  participation  in  the  scheme  is limited  to  science,  engineering  and  technology programme in Universities and Polytechnics while in the Colleges of Education NCE programme.
+
+</p></div>';
+include 'footer.php';
+?>

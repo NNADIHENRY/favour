@@ -1,0 +1,816 @@
+/* Thi section is for the admin login starts here */
+.login-page{
+  background-color: #008b8b;
+  width: 60%;
+  margin-top: 14%;
+  margin-left: 20%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px white;
+  transition: 0.2s all ease-in;
+}
+.login-page:hover{
+  box-shadow: 0px 0px 0px white;
+  transition: 0.3s all ease-in;
+}
+.login-page .login-header{
+  text-align: center;
+  color: white;
+}
+.login-page form a{
+  color: gold;
+  text-decoration: none;
+}
+.login-page form input[type="submit"]{
+  background-color: gold;
+}
+/* Thi section is for the admin login ends here */
+
+/* This section is for the navigation layer starts here */
+.nav.navbar-nav.navbar-right li a img{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid green;
+}
+/* This section is for the navigation layer ends here */
+
+/* This is for the CONTENT page starts here */
+.CONTENT{
+  margin-top: 52px;
+  background-color: black;
+}
+/* This is for the CONTENT page ends here */
+
+/* This is the section for sideNav starts here */
+.sideNav{
+  background-color: white;
+  width: 60px;
+  padding: 10px 0;
+  position: fixed;
+  height: 1000vh;
+  left: 0;
+  top: 15px;
+  z-index: 10;
+    transition: 0.4s all ease-in-out;
+  /* remember to make the height:  same as the browser screen.height is js */
+}
+.sideNav:hover{
+  background-color: white;
+  width: 180px;
+}
+.sideNav:hover a{
+  visibility: visible;
+  transition: 0.1s all ease-in;
+}
+.sideNav:hover span.active{
+  background-color: transparent;
+}
+.sideNav ul{
+  list-style: none;
+}
+.sideNav ul li{
+  display: block;
+  margin-bottom: -15px;
+  margin-left: -40px;
+}
+.sideNav ul li a{
+  padding: 1em;
+  display: block;
+  white-space: nowrap;
+  text-decoration: none;
+  padding-left: 60px;
+  width: 180px;
+  visibility: hidden;
+}
+.sideNav ul li a b{
+  background-color: blue;
+  padding: 5px;
+  border-radius: 20px;
+  color: white;
+}
+.sideNav ul li span.active{
+  background-color: gold;
+  padding: 10px 45px 10px 20px;
+  margin-left: -20px;
+}
+.sideNav ul li span.hactive{
+  background-color: gold;
+  padding: 10px 15px 10px 20px;
+  margin-left: -20px;
+}
+.sideNav ul li a:hover{
+  background-color: gold;
+}
+.sideNav ul li span{
+  font-size: 25px;
+  margin-right: 10px;
+  position: relative;
+  top: 45px;
+  left: 15px;
+}
+.glyphicon.glyphicon-dashboard{
+  color: purple;
+}
+.glyphicon.glyphicon-picture{
+  color: green;
+}
+.glyphicon.glyphicon-envelope{
+  color: brown;
+}
+.glyphicon.glyphicon-cog{
+  color: black;
+}
+.fa.fa-comment{
+  color: orange;
+}
+.fa.fa-user-plus{
+  color: darkblue;
+}
+.glyphicon.glyphicon-off{
+  color: red;
+}
+/* This is the section for sideNav ends here */
+
+/* This is the section for the mainContent starts here */
+.mainContent{
+  background-color: #efefef;
+  height: auto;
+  padding-left: 70px;
+  padding-top: 20px;
+}
+.mainContent .dashboard{
+}
+.mainContent .dashboard .dashboard-header{
+  padding: 0 20px 10px 20px;
+  margin-bottom: 20px;
+}
+.mainContent .dashboard .dashboard-header h2{
+  clear: both;
+}
+.mainContent .dashboard .dashboard-header p{
+  float: right;
+  margin-top: -10px;
+}
+.mainContent .dashboard .dashboard-content{
+  background-color: white;
+  padding: 30px 10px;
+  /* margin-bottom: 300px; */
+}
+.mainContent .dashboard .dashboard-content .box{
+  background-color: gold;
+  width: 30%;
+  height: auto;
+  border-radius: 20px;
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+  color: white;
+}
+.mainContent .dashboard .dashboard-content .box h4{
+  color: black;
+}
+.mainContent .dashboard .dashboard-content .box p{
+  color: green;
+}
+.mainContent .dashboard .dashboard-content .space{
+  clear: both;
+}
+.mainContent .footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  /* margin-top: 20px;
+  position: absolute;*/
+  z-index: 0;
+  width: 100%;
+  left: -0.1%;
+  bottom: 0;
+}
+/* This is the section for the mainContent ends here */
+
+
+/* This section is for the upload page starts here */
+.fa.fa-check{
+  color: green;
+}
+.fa.fa-close{
+  color: red;
+}
+.tab-content-header{
+  text-align: center;
+}
+.tab-content-header h2{
+  color: black;
+  text-shadow: 3px 4px 2px black;
+}
+.tab-content-header b{
+  color: gold;
+  text-shadow: 0px 0px 0px;
+}
+.tab-content ul{
+  list-style: none;
+}
+.tab-content ul li{
+  display: inline;
+}
+.tab-content ul li input[type='checkbox']{
+  position: relative;
+  top: -10px;
+  right: 20px;
+}
+.tab-content ul li a img{
+  width: 15%;
+  height: 120px;
+  border: 1px dashed black;
+  transition: 0.1s all ease-in;
+  box-shadow: 0px 0px 0px black;
+}
+.tab-content ul li a img:hover{
+  transition: 0.1s all ease-in;
+  box-shadow: 10px 5px 5px black;
+}
+.modal .modal-body .reviewImg img{
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+.upload{
+  padding-top: 40px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.upload .upload-header{
+  text-align: center;
+}
+.upload .upload-header h2{
+  color: black;
+  text-shadow: 2px 2px 4px;
+}
+.upload .upload-header b{
+  color: gold;
+  text-shadow: 0px 0px 0px;
+}
+.upload .upload-content{
+  text-align: center;
+}
+.upload .upload-content h4{
+  text-decoration: underline;
+}
+.upload .upload-content ul{
+  list-style: upper-roman;
+}
+.upload .upload-content .upload-action{
+  padding-left:10px;
+}
+.upload .upload-content .upload-action input[type="file"]{
+  border-radius: 3px;
+  padding: 10px;
+  background-color: gold;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.15),
+   0px 10px 0px -5px #eee,
+   0px 10px 1px -4px rgba(0,0,0,0.15),
+   0px 20px 0px -10px #eee,
+   0px 20px 1px -9px rgba(0,0,0,0.15);
+   transition: 0.4s all ease-in;
+}
+.upload .upload-content .upload-action input[type="file"]:hover{
+  box-shadow: 0px 0px 0px rgba(0,0,0,0.15),
+   0px 0px 0px 0px #eee,
+   0px 0px 0px 0px rgba(0,0,0,0.15),
+   0px 0px 0px 0px #eee,
+   0px 0px 0px 0px rgba(0,0,0,0.15);
+   transition: 0.4s all ease-in;
+}
+.upload .uploaded-content{
+  height: 320px;
+  width: 90%;
+  float: left;
+  margin: 10px 0px;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.upload .uploaded-content:nth-child(even){
+  background-color: #efefef;
+}
+.upload .uploaded-content .uploaded-image{
+  height: 300px;
+  width: 45%;
+  float: left;
+}
+.upload .uploaded-content .uploaded-image img{
+  width: 100%;
+  height: 300px;
+}
+.upload .uploaded-content .uploaded-details{
+  height: 300px;
+  width: 45%;
+  float: left;
+  margin-left: 20px;
+
+}
+.upload .uploaded-content .uploaded-details .upload-form{
+  padding: 30px;
+}
+.upload .uploaded-content .uploaded-details .upload-form .form-group label{
+  font-size: 20px;
+  color: gold;
+}
+.upload .uploaded-content .uploaded-details .upload-form .form-group input,
+.upload .uploaded-content .uploaded-details .upload-form .form-group select{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.upload button.uploadBtn{
+  background-color: gold;
+}
+.uploadBtn1{
+  background-color: red;
+}
+/* This section is for the upload page ends here */
+/* This section is for the email starts here */
+.email{
+  /* background-color: white; */
+}
+.email .col-sm-2{
+  background-color: #008b8b;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+.email .col-sm-2 ul{
+  list-style: none;
+}
+.email .col-sm-2 ul li{
+  display: block;
+  margin-bottom: 10px;
+}
+.email .col-sm-2 ul li a{
+  display: block;
+  padding: 1em;
+  white-space: nowrap;
+  text-decoration: none;
+  /* background-color: gold; */
+  width: 100%;
+  margin-left: -20px;
+  color: white;
+  border-radius: 10px;
+  transition: 0.4s all ease-in;
+}
+.email .col-sm-2 ul li a.compose{
+  background-color: red;
+}
+.email .col-sm-2 ul li a:hover{
+  background-color: gold;
+  transition: 0.2s all ease-in;
+}
+.fa.fa-edit{
+  color: yellow;
+}
+.fa.fa-envelope-o{
+  color: brown;
+}
+.fa.fa-external-link{
+  color: green;
+}
+.fa.fa-folder-open{
+  color: black;
+}
+.glyphicon.glyphicon-trash{
+  color: red;
+}
+.email .col-sm-10{
+  background-color: rgba(0,139,139,0.1);
+  margin-bottom: 80px;
+}
+.email .col-sm-10 table tr{
+  cursor: pointer;
+  border-top: 2px solid white;
+}
+.email .col-sm-10 table tr:hover{
+  background-color: #008b8b;
+}
+.email .col-sm-10 table tr th{
+  background-color: #008b8b;
+  color: white;
+}
+.email .col-sm-10 .part-two{
+  /* background-color: green; */
+  padding: 10px;
+  border-radius: 10px;
+}
+.email .col-sm-10 .part-two .section-header{
+}
+.email .col-sm-10 .part-two .section-header .content-img{
+  float: left;
+  width: 35px;
+  background-color: gold;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 10%;
+  /* text-align: center; */
+}
+.email .col-sm-10 .part-two .section-header .content-details{
+  float: left;
+  width: 50%;
+  margin-left: 10px;
+}
+.email .col-sm-10 .part-two .section-header .content-action{
+  float: right;
+  width: 20%;
+  margin-left: 10px;
+}
+.email .col-sm-10 .part-two .section-header .content-action span.action{
+  float: right;
+  cursor: pointer;
+  color: red;
+}
+.email .col-sm-10 .part-two .section-header .content-action .hidden-btn{
+
+}
+.email .col-sm-10 .part-two .section-header .content-action .hidden-btn ul{
+  list-style: none;
+  background-color: white;
+  width: 150px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 5;
+}
+.email .col-sm-10 .part-two .section-header .content-action .hidden-btn ul li{
+  display: block;
+  margin-bottom: 2px;
+}
+.email .col-sm-10 .part-two .section-header .content-action .hidden-btn ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 2px;
+  display: block;
+  margin-left: -40px;
+  border-radius: 10px;
+  transition: 0.3s all ease-in;
+}
+.email .col-sm-10 .part-two .section-header .content-action .hidden-btn ul li a:hover{
+transition: 0.3s all ease-in;
+  background-color: gold;
+}
+.email .col-sm-10 .part-two .section-content{
+  border-top: 1px solid black;
+  clear: both;
+  background: white;
+  padding: 10px;
+  border-left: 5px solid #008b8b;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.feedBack{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: gold;
+  padding: 20px;
+  border-radius: 20px;
+}
+/* This section is for the email ends here */
+
+
+  /* The section for add co Administrator and edit adminprofile starts here */
+.addAdmin{
+  background-color: white;
+  padding: 10px 60px;
+}
+  /* The section for add co Administrator and edit adminprofile ends here */
+ /* This section is for the chat room starts here */
+.chat-room{
+}
+.chat-room .col-sm-3.contact{
+  background-color: #008b8b;
+}
+.chat-room .col-sm-3.contact .tab ul.nav{
+  background-color: black;
+}
+.chat-room .col-sm-3.contact .tab-content{
+  margin-left: -15px;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane{
+  height: auto;
+  overflow: hidden;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane ul{
+  height: 100vh;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane ul:hover{
+
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane ul li{
+  cursor: pointer;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane ul li img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid green;
+  position: relative;
+  left:  -40px;
+  top: 10px;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane ul li .admin-content{
+  border-bottom: 2px solid gold;
+  position: relative;
+  left: 10px;
+  top: -70px;
+  border-radius: 10px;
+  transition: 0.2s all ease;
+  /* color: white; */
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane ul li .admin-content:hover{
+  padding-left: 10px;
+  background-color: gold;
+  transition: 0.4s all ease;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane ul li .admin-content .admin-name{
+  color: white;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane ul li .admin-content .admin-msg-time{
+  color: red;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane ul li .admin-content .admin-short-msg{
+  color: black;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane .adminGroup,
+.chat-room .col-sm-3.contact .tab-content .tab-pane .coAdminGroup{
+  background-color: white;
+  padding: 10px 0px 10px 20px;
+  margin: 10px auto;
+  margin-left: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s all ease-in;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane .adminGroup{
+  border-left: 5px solid gold;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane .adminGroup:hover{
+  background-color: gold;
+  border-left: 5px solid white;
+  color: white;
+  transition: 0.3s all ease-in;
+  padding: 10px 0px 10px 10px;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane .adminGroup:hover span{
+  color: white;
+  transition: 0.3s all ease-in;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane .coAdminGroup{
+  border-left: 5px solid blue;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane .coAdminGroup:hover{
+  background-color: blue;
+  border-left: 5px solid white;
+  color: white;
+  transition: 0.3s all ease-in;
+  padding: 10px 0px 10px 10px;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane .coAdminGroup:hover span{
+  color: white;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane .adminGroup span,
+.chat-room .col-sm-3.contact .tab-content .tab-pane .coAdminGroup span{
+  position: relative;
+  top: -30px;
+  left: 190px;
+  font-size: 20px;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane .adminGroup span{
+  color: gold;
+}
+.chat-room .col-sm-3.contact .tab-content .tab-pane .coAdminGroup span{
+  color: blue;
+}
+.chat-room .col-sm-9 .single-chat-content{
+  background-image: url(../img/singleChatBg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
+  background-color: black;
+  overflow: hidden;
+  height: 600px;
+}
+.chat-room .col-sm-9 .single-chat-content:hover{
+  overflow-y: auto;
+}
+.chat-room .col-sm-9 .single-chat-content .received-chat{
+  /* background: blue; */
+  padding: 10px;
+}
+.chat-room .col-sm-9 .single-chat-content .received-chat .received-chat-content{
+  background-color: #008b8b;
+  width: 70%;
+  color: white;
+  position: relative;
+  top: -30px;
+  left: 35px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.chat-room .col-sm-9 .single-chat-content .received-chat .received-chat-content .received-chat-time{
+  float: right;
+  margin-top: 5px;
+}
+.chat-room .col-sm-9 .single-chat-content .received-chat img,
+.chat-room .col-sm-9 .single-chat-content .sent-chat img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.chat-room .col-sm-9 .single-chat-content .sent-chat img{
+  float: right;
+}
+.chat-room .col-sm-9 .single-chat-content .sent-chat{
+  /* background-color: pink; */
+  padding: 10px;
+}
+
+.chat-room .col-sm-9 .single-chat-content .sent-chat .sent-chat-content{
+  background-color: white;
+  width: 70%;
+  text-align: right;
+  position: relative;
+  top: -30px;
+  left:200px;
+  /* Remeber to change to 30px in media query */
+  padding: 5px;
+  border-radius: 10px;
+  clear: both;
+}
+.chat-room .col-sm-9 .single-chat-content .sent-chat .sent-chat-content .sent-chat-time{
+  float: left;
+  color: white;
+  margin-top: 5px;
+}
+.chat-room .col-sm-9.content .group-chat-content{
+  background-image: url(../img/adminChatBg.jpg);
+  /* background-color: black; */
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
+  overflow: hidden;
+  height: 600px;
+}
+.chat-room .col-sm-9.content .group-chat-content:hover{
+  overflow-y: auto;
+}
+.chat-room .col-sm-9.content .group-chat-content .received-chat{
+  /* background: blue; */
+  padding: 10px;
+}
+.chat-room .col-sm-9.content .group-chat-content .received-chat .received-chat-content{
+  background-color: #008b8b;
+  width: 70%;
+  color: white;
+  position: relative;
+  top: -30px;
+  left: 35px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.chat-room .col-sm-9.content .group-chat-content .received-chat .received-chat-content .received-chat-time{
+  float: right;
+  margin-top: 5px;
+}
+.chat-room .col-sm-9.content .group-chat-content .received-chat img,
+.chat-room .col-sm-9.content .group-chat-content .sent-chat img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.chat-room .col-sm-9.content .group-chat-content .sent-chat img{
+  float: right;
+}
+.chat-room .col-sm-9.content .group-chat-content .sent-chat{
+  /* background-color: pink; */
+  padding: 10px;
+}
+
+.chat-room .col-sm-9.content .group-chat-content .sent-chat .sent-chat-content{
+  background-color: white;
+  width: 70%;
+  text-align: right;
+  position: relative;
+  top: -30px;
+  left:200px;
+  /* Remeber to change to 30px in media query */
+  padding: 5px;
+  border-radius: 10px;
+  clear: both;
+}
+.chat-room .col-sm-9.content .group-chat-content .sent-chat .sent-chat-content .sent-chat-time{
+  float: left;
+  color: white;
+  margin-top: 5px;
+}
+ /* This section is for the chat room ends here */
+
+
+
+
+
+/* This section is for the footer starts here */
+
+/* This section is the end of the footer */
+
+/* =================================This is the start of the media query============================ */
+/* ==================================================================================================== */
+@media (min-width: 320px) and (max-width: 400px) {
+  /* This is the section for the mainContent starts here */
+  .mainContent{
+    background-color: #efefef;
+    padding-left: 0px;
+  }
+  .mainContent .dashboard .dashboard-content{
+    background-color: red;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  .mainContent .dashboard .dashboard-content .box{
+    width: 100%;
+    float: left;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+  /* This is the section for the mainContent ends here */
+
+
+  /* This section is for the upload page starts here */
+
+  .tab-content ul li input[type='checkbox']{
+    right: 12px;
+  }
+  .tab-content ul li a img{
+    width: 20%;
+    height: 80px;
+}
+  .upload{
+    padding: 40px;
+  }
+  .upload .upload-content ul{
+    list-style: none;
+  }
+    .upload .upload-content ul li{
+      display: block;
+    }
+  .upload .uploaded-content{
+    height: auto;
+    width: 100%;
+    clear: both;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .upload .uploaded-content:nth-child(even){
+    background-color: #efefef;
+  }
+  .upload .uploaded-content .uploaded-image{
+    height: 300px;
+    width: 100%;
+    float: left;
+  }
+  .upload .uploaded-content .uploaded-details{
+    height: 300px;
+    width: 100%;
+    float: left;
+    margin-left: 0px;
+
+  }
+  /* This section is for the upload page ends here */
+
+  /* This section is for the email starts here */
+
+  .email .col-sm-10 .part-two .section-header .content-action span.action{
+    margin-left: 20px;
+  }
+  .email .col-sm-10 .part-two .section-header .content-action .hidden-btn ul{
+    width: 120px;
+    right: 60px;
+  }
+  /* This section is for the email ends here */
+
+  /* This section is for the email starts here */
+
+  .chat-room .col-sm-9 .single-chat-content .sent-chat .sent-chat-content,
+  .chat-room .col-sm-9.content .group-chat-content .sent-chat .sent-chat-content{
+    left:65px;
+  }
+  /* This section is for the email ends here */
+}

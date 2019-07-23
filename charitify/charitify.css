@@ -1,0 +1,834 @@
+*{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+.navbar{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
+
+.logo{
+	width: 300px;
+	height: 100px;
+	
+	float: left;
+	background: url("img/logo.png");
+	background-repeat: no-repeat;
+
+	background-position: center;
+	background-color: white;
+}
+
+.navigation{
+	width: 820px;
+	height: 60px;
+	background-color: white;
+	float: left;
+	padding-top: 40px;
+}
+
+
+.navigation ul{
+	list-style-type: none;
+	float: right;
+
+
+}
+
+.navigation ul li{
+	text-decoration: none;
+display: inline;
+margin-right: 20px;
+}
+
+.navigation ul li a{
+color: black
+
+
+}
+
+.donate{
+	width: 180px;
+	height: 100px;
+	background-color: white;
+	float: left;
+}
+.donate button{
+
+	width: 100px;
+	height: 50px;
+	margin-top: 25px;
+	margin-left: 20px;
+	border-radius: 2px;
+	background-color: orange;
+	border: 0px;
+	color: white;
+	font-size: 15px;
+}
+
+
+.carousel{
+	width: 100%;
+	height: 550px;
+	background: url("img/slider-2.jpg");
+}
+
+
+.subdiv{
+
+	width: 80%;
+	height: 300px;
+	background-color: white;
+	margin-left: 10%;	
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.subone{
+	width: 33%;
+	height: 300px;
+	float: left;
+
+	background-color: white;
+
+
+}
+.subone h2{
+	margin-left: 55px;
+}
+
+.subone p{
+
+	margin-left: 55px;
+}
+
+.subone a{
+	text-align: center;
+	margin-left: 55px;
+}
+
+.suboneone{
+	width: 70px;
+	height: 70px;
+	background-color: red;
+		background: url("img/icon-1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 50px;
+	padding-top: 70px;
+}
+
+
+
+
+.subonet{
+	width: 33%;
+	height: 300px;
+	float: left;
+
+	background-color: white
+
+
+}
+.subonet h2{
+margin-left: 55px;
+}
+
+.subonet p{
+
+	margin-left: 55px;
+}
+
+.subonet a{
+	text-align: center;
+	margin-left: 55px;
+}
+
+.suboneonet{
+	width: 70px;
+	height: 70px;
+	background-color: red;
+		background: url("img/icon-2.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 50px;
+	padding-top: 70px;
+}
+
+
+
+
+
+.subthree{
+	width: 33%;
+	height: 300px;
+	float:left;
+	background-color: white
+
+
+
+
+}
+.subthree h2{
+margin-left: 55px;
+}
+
+.subthree p{
+
+	margin-left: 55px;
+}
+
+.subthree a{
+	text-align: center;
+	margin-left: 55px;
+}
+
+.subonethree{
+	width: 70px;
+	height: 70px;
+	background-color: red;
+	margin-left: 1px;
+		background: url("img/icon-3.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 50px;
+	padding-top: 70px;
+
+}
+
+.holder{
+	width: 100%;
+	height: 300px;
+	background-color: wheat;
+}
+
+
+
+.container{
+	width: 100%;
+	height: 850px;
+	background-color: white;
+}
+
+
+.horizontal{
+	width: 100%;
+	height: 120px;
+	background-color: transparent;
+	padding-top: 130px;
+}
+
+.horizontal h1{
+	text-align: center;
+
+}
+
+
+.horizontal p{
+	text-align: center;
+}
+
+
+.small{
+	width: 70px;
+	height: 5px;
+	background-color: brown;
+	margin-left: 48%;
+}
+
+.carrier{
+	width: 100%;
+	height: 300px;
+	background-color: white;
+	margin-left: 70px;
+	margin-right: 40px;
+}
+
+.firstcarrier{
+	width: 380px;
+	height: 300px;
+	background-color: purple;
+	float: left;
+	background: url("img/causes-1.jpg");
+	margin-right: 30px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.secondcarrier{
+	width: 370px;
+	height: 300px;
+	background-color: orange;
+	float: left;
+	margin-right: 30px;
+	background: url("img/causes-2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.thirdcarrier{
+	width: 370px;
+	height: 300px;
+	background-color: green;
+	float: left;
+	margin-right: 40px;
+	background: url("img/causes-3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+
+
+.holder{
+	width: 100%;
+	height: 240px;
+	background-color: white;
+	margin-left: 70px;
+	margin-right: 40px;
+}
+
+
+
+.holderone{
+	width: 350px;
+	height: 200px;
+	background-color: silver;
+	float: left;
+	margin-right: 30px;
+	border: 1px dashed gray;
+		padding-top: 30px;
+	padding-left: 20px;
+}
+
+.holderone p{
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+
+.holderone h1{
+	font-size: 20px;
+}
+
+
+.holdertwo{
+	width: 350px;
+	height: 200px;
+		background-color: silver;
+	float: left;
+	margin-right: 30px;
+	border: 1px dashed gray;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+
+.holdertwo p{
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+
+.holdertwo h1{
+	font-size: 20px;
+}
+
+.holderthree{
+width: 350px;
+	height: 200px;
+	background-color: silver;
+	float: left;
+	margin-right: 40px;
+	border: 1px dashed gray;
+		padding-top: 30px;
+	padding-left: 20px;
+}
+
+.holderthree p{
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.holderthree h1{
+	font-size: 20px;
+}
+
+.fav{
+	width: 100%;
+	height: 800px;
+	background-color: purple;
+}
+.mark{
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	margin-left: 70px;
+	margin-right: 40px;
+}
+
+.markone{
+	width: 300px;
+	height: 250px;
+	background-color: red;
+	float: left;
+}
+
+.round{
+	width: 300px;
+	height: 250px;
+	background-color: orange;
+	background: url("img/profile.jpg");
+	background-position: center;
+	border-radius: 150px;
+}
+
+
+.marktwo{
+	width: 300px;
+	height: 250px;
+	background-color: green;
+	float:left;
+}
+
+.markthree{
+	width: 300px;
+	height: 250px;
+	background-color: blue;
+	float: left;
+}
+
+
+
+
+
+/*styling for the other screens starts here*/
+
+
+@media screen and (max-width: 411px){
+
+
+
+*{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+.navbar{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
+
+.logo{
+	width:100%;
+	height: 100px;
+	
+	float: left;
+	background: url("img/logo.png");
+	background-repeat: no-repeat;
+
+	background-position: center;
+	background-color: white;
+}
+
+.navigation{
+	width: 820px;
+	height: 60px;
+	background-color: white;
+	float: left;
+	padding-top: 40px;
+}
+
+
+.navigation ul{
+	list-style-type: none;
+	float: right;
+
+
+}
+
+.navigation ul li{
+	text-decoration: none;
+display: inline;
+margin-right: 20px;
+}
+
+.navigation ul li a{
+color: black
+
+
+}
+
+.donate{
+	width: 180px;
+	height: 100px;
+	background-color: white;
+	float: left;
+}
+.donate button{
+
+	width: 100px;
+	height: 50px;
+	margin-top: 25px;
+	margin-left: 20px;
+	border-radius: 2px;
+	background-color: orange;
+	border: 0px;
+	color: white;
+	font-size: 15px;
+}
+
+
+.carousel{
+	width: 100%;
+	height: 550px;
+	background: url("img/slider-2.jpg");
+}
+
+
+.subdiv{
+
+	width: 80%;
+	height: 300px;
+	background-color: white;
+	margin-left: 10%;	
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.subone{
+	width: 33%;
+	height: 300px;
+	float: left;
+
+	background-color: white;
+
+
+}
+.subone h2{
+	margin-left: 55px;
+}
+
+.subone p{
+
+	margin-left: 55px;
+}
+
+.subone a{
+	text-align: center;
+	margin-left: 55px;
+}
+
+.suboneone{
+	width: 70px;
+	height: 70px;
+	background-color: red;
+		background: url("img/icon-1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 50px;
+	padding-top: 70px;
+}
+
+
+
+
+.subonet{
+	width: 33%;
+	height: 300px;
+	float: left;
+
+	background-color: white
+
+
+}
+.subonet h2{
+margin-left: 55px;
+}
+
+.subonet p{
+
+	margin-left: 55px;
+}
+
+.subonet a{
+	text-align: center;
+	margin-left: 55px;
+}
+
+.suboneonet{
+	width: 70px;
+	height: 70px;
+	background-color: red;
+		background: url("img/icon-2.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 50px;
+	padding-top: 70px;
+}
+
+
+
+
+
+.subthree{
+	width: 33%;
+	height: 300px;
+	float:left;
+	background-color: white
+
+
+
+
+}
+.subthree h2{
+margin-left: 55px;
+}
+
+.subthree p{
+
+	margin-left: 55px;
+}
+
+.subthree a{
+	text-align: center;
+	margin-left: 55px;
+}
+
+.subonethree{
+	width: 70px;
+	height: 70px;
+	background-color: red;
+	margin-left: 1px;
+		background: url("img/icon-3.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 50px;
+	padding-top: 70px;
+
+}
+
+.holder{
+	width: 100%;
+	height: 300px;
+	background-color: wheat;
+}
+
+
+
+.container{
+	width: 100%;
+	height: 850px;
+	background-color: white;
+}
+
+
+.horizontal{
+	width: 100%;
+	height: 120px;
+	background-color: transparent;
+	padding-top: 130px;
+}
+
+.horizontal h1{
+	text-align: center;
+
+}
+
+
+.horizontal p{
+	text-align: center;
+}
+
+
+.small{
+	width: 70px;
+	height: 5px;
+	background-color: brown;
+	margin-left: 48%;
+}
+
+.carrier{
+	width: 100%;
+	height: 300px;
+	background-color: white;
+	margin-left: 70px;
+	margin-right: 40px;
+}
+
+.firstcarrier{
+	width: 380px;
+	height: 300px;
+	background-color: purple;
+	float: left;
+	background: url("img/causes-1.jpg");
+	margin-right: 30px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.secondcarrier{
+	width: 370px;
+	height: 300px;
+	background-color: orange;
+	float: left;
+	margin-right: 30px;
+	background: url("img/causes-2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.thirdcarrier{
+	width: 370px;
+	height: 300px;
+	background-color: green;
+	float: left;
+	margin-right: 40px;
+	background: url("img/causes-3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+
+
+.holder{
+	width: 100%;
+	height: 240px;
+	background-color: white;
+	margin-left: 70px;
+	margin-right: 40px;
+}
+
+
+
+.holderone{
+	width: 350px;
+	height: 200px;
+	background-color: silver;
+	float: left;
+	margin-right: 30px;
+	border: 1px dashed gray;
+		padding-top: 30px;
+	padding-left: 20px;
+}
+
+.holderone p{
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+
+.holderone h1{
+	font-size: 20px;
+}
+
+
+.holdertwo{
+	width: 350px;
+	height: 200px;
+		background-color: silver;
+	float: left;
+	margin-right: 30px;
+	border: 1px dashed gray;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+
+.holdertwo p{
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+
+.holdertwo h1{
+	font-size: 20px;
+}
+
+.holderthree{
+width: 350px;
+	height: 200px;
+	background-color: silver;
+	float: left;
+	margin-right: 40px;
+	border: 1px dashed gray;
+		padding-top: 30px;
+	padding-left: 20px;
+}
+
+.holderthree p{
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.holderthree h1{
+	font-size: 20px;
+}
+
+.fav{
+	width: 100%;
+	height: 800px;
+	background-color: purple;
+}
+.mark{
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	margin-left: 70px;
+	margin-right: 40px;
+}
+
+.markone{
+	width: 300px;
+	height: 250px;
+	background-color: red;
+	float: left;
+}
+
+.round{
+	width: 300px;
+	height: 250px;
+	background-color: orange;
+	background: url("img/profile.jpg");
+	background-position: center;
+	border-radius: 150px;
+}
+
+
+.marktwo{
+	width: 300px;
+	height: 250px;
+	background-color: green;
+	float:left;
+}
+
+.markthree{
+	width: 300px;
+	height: 250px;
+	background-color: blue;
+	float: left;
+}
+
+
+
+}
+
+
+
+

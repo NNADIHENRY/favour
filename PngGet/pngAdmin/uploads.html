@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ikwegbu George Chinedu Iheanyichukwu">
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <meta name="description" content="PngGet stands for Portable Network Graphics Get, where PNG images can be downloaded by users for easy integration into their work. This has so many categories, ranging from nature, food, meal, cars, aeroplanes, ships, keke, houses, buildings, electronics, cloths, etc.">
+    <meta name="keywords" content="We provide images without backgrounds so as to help users who doesn\'t know how remove image backgrounds with any Graphics software. This has so many categories, ranging from nature, food, meal, cars, aeroplanes, ships, keke, houses, buildings, electronics, cloths, etc.">
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../img/favicon.jpg" size="16*16" type="image/png">
+    <title>PngGet -Review Upload</title>
+  </head>
+  <body>
+
+    <!-- This is for the horizontal navigation bar starts here -->
+    <nav class="nav-bar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="index.html" class="navbar-brand"><span class="glyphicon glyphicon-camera"></span> PngGet - Administrator</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#georgeNavbar">
+             <i class="fa fa-2x fa-angle-double-down wow zoomIn" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-iteration="infinite"></i>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="georgeNavbar">
+          <ul class="nav navbar-nav navbar-left hidden-lg">
+            <li><a href="index.html"><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a></li>
+            <li class="active"><a href="uploads.html"><span class="glyphicon glyphicon-picture"></span> Review Uploads</a></li>
+            <li><a href="email.html"><span class="glyphicon glyphicon-envelope"></span> Email</a></li>
+            <li><a href="chat.html"><span class="fa fa-comment"></span> Chat</a></li>
+            <li><a href="addadmin.html"><span class="fa fa-user-plus"></span> Add Co-Administrator</a></li>
+            <li><a href="edit.html"><span class="glyphicon glyphicon-cog"></span> Edit Profile</a></li>
+            <li><a href="../_inc/logout.php"><span class="glyphicon glyphicon-off"></span> Logout</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="javascript:;"><img src="../img/user.png" alt="">  George </a></li>
+            <li> <a href="javascript:;"></a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- This is for the horizontal navigation bar ends here -->
+
+    <div class="container-fluid">
+      <!-- This is the start of CONTENT section -->
+      <div class="CONTENT">
+        <!-- This is for the vertical navigation bar starts here -->
+        <div class="sideNav hidden-xs">
+          <ul>
+            <li><span class="glyphicon glyphicon-dashboard wow bounce" data-wow-iteration="infinite"></span><a href="index.html">  Dashboard</a></li>
+            <li><span class="glyphicon glyphicon-picture active" data-wow-iteration="infinite"></span><a href="uploads.html">  Review Uploads</a></li>
+            <li><span class="glyphicon glyphicon-envelope wow flipInX" data-wow-iteration="infinite"></span><a href="email.html">  Email <b>5</b></a></li>
+            <li><span class="fa fa-comment wow rubberBand" data-wow-iteration="infinite"></span><a href="chat.html">  Chat <b>20</b></a></li>
+            <li><span class="fa fa-user-plus"></span> <a href="addAdmin.html">Add Co-Admin</a></li>
+            <li><span class="glyphicon glyphicon-cog wow rotateIn" data-wow-iteration="infinite"></span><a href="edit.html">  Edit Profile</a></li>
+            <li><span class="glyphicon glyphicon-off wow pulse" data-wow-iteration="infinite"></span> <a href="../_inc/logout.php"> Logout</a></li>
+            <!-- <li><a href="#"></a></li>
+            <li><a href="#"></a></li> -->
+          </ul>
+        </div>
+        <!-- This is for the vertical navigation bar ends here -->
+
+        <!-- This is the section for the maincontent starts here -->
+        <div class="mainContent">
+          <div class="dashboard">
+            <div class="dashboard-header">
+              <h2>Review Uploads</h2>
+              <p>
+                <b>Home</b> <span class="fa fa-caret-right"></span>
+                <i>Review uploads</i>
+              </p>
+            </div>
+            <div class="tab">
+                  <ul class="nav nav-tabs nav-justified" role="tablist">
+                      <li role="presentation" class="active"><a  href="#NewUpload" aria-controls="NewUpload" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-cloud"></span> New Uploads</a> </li>
+                      <li role="presentation"><a href="#ApprovedUpload" aria-controls="ApprovedUpload" role="tab" data-toggle="tab"><span class="fa fa-check"></span> Approved Upload</a> </li>
+                      <li role="presentation"><a href="#DeniedUpload" aria-controls="DeniedUpload" role="tab" data-toggle="tab"><span class="fa fa-close"></span> Denied Upload</a> </li>
+                      <li role="presentation"><a href="#uploadPng" aria-controls="uploadPng" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-picture"></span> Upload PNG</a> </li>
+                  </ul>
+
+                  <!--Tab panes-->
+                  <div class="tab-content">
+
+                      <div class="tab-pane fade in active" id="NewUpload" role="tabpanel">
+                        <div class="tab-content-header">
+                          <h2>New <b>Uploads</b></h2>
+                        </div>
+                        <ul>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li><li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                        </ul>
+                      </div>
+
+                      <div class="tab-pane fade" id="ApprovedUpload" role="tabpanel">
+                        <div class="tab-content-header">
+                          <h2>Approved<b> Uploads</b></h2>
+                        </div>
+                        <ul>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li><li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#approvedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                        </ul>
+                      </div>
+
+                      <div class="tab-pane fade" id="DeniedUpload" role="tabpanel">
+                        <div class="tab-content-header">
+                          <h2>Denied<b> Uploads</b></h2>
+                        </div>
+                        <ul>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li><li><a href="javascript:;" data-toggle="modal" data-target="#reviewUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                          <li><a href="javascript:;" data-toggle="modal" data-target="#deniedUpload"><img src="../img/user.png" author="" description="" category=""></a><input type="checkbox" class="imgCheckbox" value=""></li>
+                        </ul>
+                      </div>
+
+                      <div class="tab-pane fade" id="uploadPng" role="tabpanel">
+                        <div class="upload">
+                          <div class="upload-header">
+                            <h2>Upload <b><span class="glyphicon glyphicon-camera"></span> PNG</b></h2>
+                          </div>
+                          <div class="upload-content">
+                            <p>
+                              Please be sure you have read the terms and conditions of the site to be guided on what and how to upload your files.
+                              To make your picture appear on our homepage for Downloads and reusability, follow the rules below.
+                            </p>
+                            <h4>Rules of Upload</h4>
+                            <ul>
+                              <li>Provide your name as the author</li>
+                              <li>Provide a small description of the image</li>
+                              <li>Provide a category and subcategory of the image(if necessary)</li>
+
+                            </ul>
+                            <div class="upload-action">
+                              <input type="file" class="upload-file" id="upload-file" onchange="previewUpload.call(this)" name="" value="">
+                              <p id="errorMessage"></p>
+                            </div>
+                          </div>
+                          <hr>
+                            <!--================================  -->
+                          <div class="uploaded-content" id="uploaded-content" style="display: none;">
+                            <div class="uploaded-image">
+                              <img src="" alt="" id="uploadImage">
+                            </div>
+
+                            <div class="uploaded-details">
+                              <form class="upload-form" action="" method="post">
+                                <div class="form-group">
+                                  <label for="name">Author:</label><br>
+                                  <input type="text" class="image-author" required placeholder="e.g Ikwegbu George" name="" value="">
+                                </div>
+                                <div class="form-group">
+                                  <label for="description">Short Description:</label><br>
+                                  <input type="text" class="image-description" required maxlength="100" placeholder="e.g A handsome younge fella..." name="" value="">
+                                </div>
+                                <div class="form-group">
+                                  <label for="category">Category</label><br>
+                                  <select class="image-category" required name="">
+                                    <option value="select category">Select category</option>
+                                    <option value="Electronics">Electronics</option>
+                                    <option value="Nature">Nature</option>
+                                    <option value="Engineering">Engineering</option>
+                                    <option value="Music">Music</option>
+                                    <option value="Wears">Wears</option>
+                                    <option value="Accesories">Accesories</option>
+                                    <option value="Buildings">Buildings</option>
+                                    <option value="Transport">Transport</option>
+                                    <option value="Food">Food</option>
+                                  </select>
+                                </div>
+                              </form>
+                            </div>
+
+                          </div>
+
+
+                          <button type="button" style="display:none;" class="form-control uploadBtn" id="uploadBtn" name="button">Upload</button>
+                        </div>
+
+                        <p id="newImage" style="display: none;"></p>
+                      </div>
+
+
+                  </div>
+
+          </div>
+
+          <!-- This is the start for footer section -->
+          <div class="footer navbar-fixed-bottom">
+        <!-- <div class="footer"> -->
+            <p>&copy PngGet.com 2019-<b id="date">2019</b>. All Rights Reserved</p>
+          </div>
+          <!-- This is the end for footer section -->
+        </div>
+        <!-- This is the section for the maincontent ends here -->
+
+
+      </div>
+      <!-- This is the end for the CONTENT section -->
+
+
+    </div>
+    <div class="container">
+  <!-- Modal for Review upload starts here-->
+    <!-- Modal -->
+  <div class="modal fade" id="reviewUpload" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Review Upload</h4>
+        </div>
+        <div class="modal-body">
+          <div class="reviewImg">
+            <img src="../img/user.png">
+          </div><br>
+          <div class="reviewContent">
+            <form class="form" action="#" method="post">
+              <div class="form-group">
+                <label for="Author">Author</label>
+                <input type="text" disabled class="form-control" value="">
+              </div>
+              <div class="form-group">
+                <label for="Description">Description</label>
+                <textarea name="textarea" class="form-control" rows="8" cols="80"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="Category">Category</label>
+                <select class="reviewCat form-control" name="">
+                  <option value="">obi</option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+              </div>
+            </form>
+          </div>
+          <div class="reviewAction">
+            <button type="submit" class="btn btn-success" name="button">Approve</button>
+            <button type="submit" class="btn btn-danger" name="button">Decline</button>
+            <!-- Both buttons will be set to submit, using php now to determine which was set , i.e if(isset), to know wheather the accept or decline the upload -->
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- Modal for Review upload ends here -->
+
+  <!-- Modal for approved uploads starts here -->
+  <div class="container">
+
+  <!-- Modal -->
+<div class="modal fade" id="approvedUpload" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Approved Upload</h4>
+      </div>
+      <div class="modal-body">
+        <div class="reviewImg">
+          <img src="../img/user.png">
+        </div><br>
+        <div class="reviewContent">
+          <form class="form" action="#" method="post">
+            <div class="form-group">
+              <label for="Author">Author</label>
+              <input type="text" disabled class="form-control" value="">
+            </div>
+            <div class="form-group">
+              <label for="Description">Description</label>
+              <textarea name="textarea" disabled class="form-control" rows="8" cols="80"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="Category">Category</label>
+              <select class="reviewCat form-control" disabled name="">
+                <option value="">obi</option>
+              </select>
+            </div>
+          </form>
+        </div>
+        <div class="reviewAction">
+          <button type="button" class="btn btn-success form-control" name="button">Approved</button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+  <!-- Modal for approved uploads ends here -->
+
+  <!-- Modal for the Declined uploads starts here -->
+  <div class="container">
+  <!-- Modal -->
+<div class="modal fade" id="deniedUpload" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Declined Upload</h4>
+      </div>
+      <div class="modal-body">
+        <div class="reviewImg">
+          <img src="../img/user.png">
+        </div><br>
+        <div class="reviewContent">
+          <form class="form" action="#" method="post">
+            <div class="form-group">
+              <label for="Author">Author</label>
+              <input type="text" disabled class="form-control" value="">
+            </div>
+            <div class="form-group">
+              <label for="Description">Description</label>
+              <textarea name="textarea" class="form-control" rows="8" cols="80"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="Category">Category</label>
+              <select class="reviewCat form-control" disabled name="">
+                <option value="">obi</option>
+                <option value=""></option>
+              </select>
+            </div>
+          </form>
+        </div>
+        <div class="reviewAction">
+          <button type="submit" class="btn btn-danger form-control" name="button">Declined</button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+  <!-- Modal for the Declined uploads ends here -->
+
+  </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/jquery-1.10.2.min.js"charset="utf-8"></script>
+  <script src="../js/wow.min.js"charset="utf-8"></script>
+  <script src="../js/ajax.js"charset="utf-8"></script>
+  <script src="../js/George.js"charset="utf-8"></script>
+    <script src="../js/Ikwegbu.js"charset="utf-8"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script type="text/javascript">
+    function previewUpload(){
+      if(this.files && this.files[0]){
+        var reader = new FileReader();
+        var fileType = this.files[0].type;
+        var fileSize = this.files[0].size;
+        var errorMessage = document.getElementById('errorMessage');
+        var div = document.getElementById('uploaded-content');
+        var text = document.getElementById('newImage');
+        var btn = document.getElementById('uploadBtn');
+        reader.onload = function(e){
+          var png = 'image/png';
+          // alert(e.target.result.slice(5,14));
+          // alert(fileType);
+          // alert(fileSize);
+          if (fileType == png) {
+            // alert('Good image file');
+            errorMessage.innerHTML = 'PNG file selected.';
+            var image = document.getElementById('uploadImage');
+            image.src = e.target.result;
+            text.innerHTML = image.src;
+            div.style.display = 'block';
+              btn.style.display = 'block';
+          } else {
+            // alert('Please select a png file');
+            errorMessage.innerHTML = 'Please select a png file.';
+            text.innerHTML = '';
+            div.style.display = 'none';
+          }
+        }
+        reader.readAsDataURL(this.files[0]);
+      }
+    }
+  </script>
+</html>

@@ -1,0 +1,91 @@
+<?php
+//echo 'the create is seriously working'
+include "dbcon.php";
+
+class create extends Connection{
+    private $usern;
+    private $pword;
+    private $bizname;
+    private $n_biz;
+    private $rc_no;
+    private $why_invest;
+    private $mail;
+   
+    private $facebook;
+    private $instagram;
+    private $twiter;
+    private $person_n;
+    private $number;
+    private $p_mail;
+
+    public function createuser($user,$pass,$bizn,$n,$r,$w,$m,$f,$i,$t,$p,$no,$email){
+        $this->usern=$user;
+        $this->pword=$pass;
+        $this->bizname=$bizn;
+        $this->n_biz=$n;
+        $this->rc_no=$r;
+        $this->why_invest=$w;
+        $this->mail=$m;
+      
+        $this->facebook=$f;
+        $this->instagram=$i;
+        $this->twiter=$t;
+        $this->person_n=$p;
+        $this->number=$no;
+        $this->p_mail=$email;
+		$sql="INSERT INTO users (username,password,b_name,nature,rc_bn,invest,email,social_f,social_i,social_t,p_name,phonenumber,p_email) 
+        VALUES('$this->usern','$this->pword','$this->bizname','$this->n_biz','$this->rc_no','$this->why_invest',
+        '$this->mail','$this->facebook','$this->instagram','$this->twiter','person_n','$this->number','$this->p_mail');";
+		$send=$this->Connect()->query($sql);
+			if($send){
+		
+
+			session_start();
+			$_SESSION['message']="user created successfully";
+			header("Location:../login.php");
+
+				}
+
+				else{
+					session_start();
+			$_SESSION['message']="user created failed";
+						
+				}
+
+
+				}
+
+}
+
+
+
+
+$theusern=$_POST['username'];
+
+
+$thepword=$_POST['password'];
+$thebiz=$_POST['bizname'];
+$nature=$_POST['natureof'];
+$bn=$_POST['bn_no'];
+$should=$_POST['why'];
+$email=$_POST['email'];
+$empty=$_POST['empty'];
+$fb=$_POST['facebook'];
+$inst=$_POST['intagram'];
+$twit=$_POST['twitter'];
+$person=$_POST['person_n'];
+$phonen=$_POST['phone'];
+$pmail=$_POST['p_mail'];
+
+
+
+$register=new createuser();
+$register->newuser($theusern,$theemail,$thepword);
+
+
+
+
+
+
+
+?>
